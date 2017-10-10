@@ -16,4 +16,5 @@ for guess in range(0,5):
 
     else:
         print("You guessed right!")
+        break
 
