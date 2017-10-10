@@ -24,3 +24,17 @@ for item in big_list:
 
 for integer in range(10):
     print(integer*integer)
+
+color = ["pink", "blue"]
+# eg enumerate gives you the index of the value
+for color, index in enumerate(color):
+    print(color)
+
+numbers = range(10)
+
+even_numbers = []
+for number in numbers:
+    if number % 2 == 0:
+        even_numbers.append(number)
+
+print(even_numbers)
